@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}.row, .frame{
+    width: 100%;
+}
+span{
+    color: gray;
+}
+
+.rounded-cirlce{
+    background-image: url('./imgs/20221213_133737.jpg');
+    width: 70px;
+    height: 83px;
+    border-radius: 60px;
+}#nav{
+    display: none;
+ 
+}
+#nav-icon-btn{
+    transform: rotate(90deg);
+    display: none;
+ 
+}#nav-off{
+  display: none;
+}
+@media(max-width:1240px){
+    .navbar,.navbar-icons{
+        display: none;
+
+    }#nav{
+        background-image: url('./imgs/20221213_133842.jpg');
+    }span{
+        color: rgb(137, 170, 180);
+    }
+    #nav-icon-btn{
+        display: block;
+    }body{
+        background-image: url('./imgs/20221213_133842.jpg');
+       overflow: unset;
+    }
+   
+
+}

@@ -25,6 +25,10 @@ span{
 }#nav-off{
   display: none;
 }
+footer{
+    background-color: rgb(109, 107, 107);
+}
+
 @media(max-width:1240px){
     .navbar,.navbar-icons{
         display: none;

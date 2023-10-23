@@ -1,91 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY-Blog</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-</head>
-<body class="bg-dark">
-    <navbar class="row  navbar m-0 p-0">
-      <icons class="bg-secondary  navbar-icons p-3">
-       
-      <name class="btn btn-warning border border-danger text-danger rounded-3 col-4 "><i href=""><strong>DEVELOPER:</strong>("MUHAMMED SULAIMAN.T")</i></name>
-      <button class="btn btn-primary border border-dark text-dark col-1 mx-5  "  href="">Home</button>
-      <button class="btn btn-primary border border-dark text-dark col-1 mx-5"  href="">About</button>
-      <button class="btn btn-primary border border-dark text-dark col-1 mx-5 "  href="">Profilo</button>
-      <button class="btn btn-primary border border-dark text-dark col-1 mx-5"  href="">Contact</button>
-       
-    </icons>
-  </navbar>
-<!---->
-  <button id="nav-icon-btn" class=" btn text-white border p-1 pb-2 mx-4 mt-2">|||</button>
-  
-  <nav id="nav" class=" col-md-3   border-end border-white pt-3 pb-5 ">
-    <button id="nav-off" class=" mx-4 p-2 mt-3 bg-dark text-white">X</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY-Blog</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+    </head>
+    <body class="bg-dark">
+        <div id="mainbar" id="home">
+      <div id="header" class="row bg-white px-2  ">
+        <h1 class="bg-white col-md   fw-bold">The Future of learning is digital </h1>
+        <span class="text-5">Future is more compalicat</span>
+      </div>
+      <!--navbar-->
+        <navbar id="navbar" class="row  navbar m-0 p-0  ">
+            <icons class="bg-secondary  navbar-icons p-3">
 
+                <name class="btn btn-warning border border-danger text-danger rounded-3 col-4 ">
+                    <i href="">
+                        <strong>DEVELOPER:</strong>("MUHAMMED SULAIMAN.T")</i>
+                </name>
+                <button class="btn btn-primary border border-dark text-dark col-1 mx-5  " href="#home">Home</button>
+                <button class="btn btn-primary border border-dark text-dark col-1 mx-5" href="">About</button>
+                <button class="btn btn-primary border border-dark text-dark col-1 mx-5 " href="">Profilo</button>
+                <button class="btn btn-primary border border-dark text-dark col-1 mx-5" href="">Contact</button>
+
+            </icons>
+        </navbar>
+        <!---->
+        <button id="nav-icon-btn" class=" btn btn-dark text-white border p-1 pb-2 mx-4 mt-2  ">|||</button>
+    </div>
+           <!---mobile navbar-->
+        <nav id="nav" class=" col-md-3   border-end border-white pt-3 pb-5  ">
+            <button id="nav-off" class=" mx-4 p-2 mt-3 bg-dark text-white">X</button>
+
+
+            <div class="container col-12">
+                <div class="rounded-cirlce bg-white col-md-3 mx-4 "></div>
+                <div class="col mb-3">
+
+                    <span class="fw-bold p-2 mt-2 text-wrap" href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245">Muhammedsulaiman.T</span><br>
+                    <span class="px-2 fst-italic" href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245">The Man@DEVELOPER</span>
+
+                </div>
+
+
+            </div>
+            <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3">Home</button><br><br>
+            <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3">About</button><br><br>
+            <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3 ">Profilo</button><br><br>
+            <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3 ">Contact</button><br><br>
+            <span href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245" class=" fst-italic fw-bold p-3 pb-0  ">Created by@mhdsulu786</span>
+        </nav>
+        <!--screen-->
+        <div class="row p-3  ">
+         <button href="https://www.iberdrola.com/innovation/virtual-reality#:~:text=Virtual%20Reality%20(VR)%20is%20a,Virtual%20Reality%20headset%20or%20helmet" class="container col-md-3 m-2 p-2 rounded"><div>
+            <div class="card ">
+              <div class="card-body">
+                <img src="./imgs/VR.jpg" alt="VR-jpg">
+                <h5 class="text-primary mt-2 mx-2 fw-bold">VIRTUAL REALITY</h5>
+                <p class="text-wrap fw-bold">THE FUTURE OF VIRTUAL REALITY</p>
+                <span class="text-wrap">Virtual Reality is one of the technologies with the highest projected potential for growth. According to the latest forecasts from IDC Research (2018), investment in VR and AR will multiply 21-fold over the next four years, reaching 15.5 billion euros by 2022.</p>
+                </span>
+
+              </div>
+
+            </div>
+          </div></button> 
+          <!---->
+            <button href="https://www.w3schools.com/whatis/whatis_fullstack.asp#:~:text=A%20full%2Dstack%20web%20developer,ASP%2C%20Python%2C%20or%20Node" class="container col-md-3 m-2 p-2 rounded"><div>
+               <div class="card ">
+                 <div class="card-body">
+                   <img src="./imgs/fullstack.jpg" alt="fullstack-jpg">
+                   <h5 class="text-primary mt-2 mx-2 fw-bold">FULL STACK DEVELOPMENT</h5>
+                   <p class="text-wrap fw-bold">THE FUTURE OF FULL STACK DEVELOPMENT</p>
+                   <span class="text-wrap">Future Scope of Full-Stack Developers
+                    According to a LinkedIn report, the demand for full-stack developers has increased by 35% yearly since 2015. According to another report from the US Bureau of Labor Statistics, the number of available jobs for these professionals will increase from 135,000 to over 853,000 by 2024.</p>
+                   </span>
    
-    <div class="container col-12">
-      <div class="rounded-cirlce bg-white col-md-3 mx-4 ">
-       
-      </div>
-      <div class="col mb-3">
-        
-      <span class="fw-bold p-2 mt-2 text-wrap" href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245">Muhammedsulaiman.T</span><br>
-      <span class="px-2 fst-italic" href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245">The Man@DEVELOPER</span>
-        
-      </div>
+                 </div>
+   
+               </div>
+             </div></button> 
+          <!---->
+          <button href="https://aws.amazon.com/training/learn-about/machine-learning/" class="container col-md-3 m-2 p-2 rounded"><div>
+            <div class="card ">
+              <div class="card-body">
+                <img src="./imgs/machine-learning.jpg" alt="MI-jpg">
+                <h5 class="text-primary mt-2 mx-2 fw-bold">Machine Learning</h5>
+                <p class="text-wrap fw-bold">THE FUTURE OF Machine Learning</p>
+                <span class="text-wrap">Machine Learning in India and around the world has a much higher potential than other career disciplines when it comes to work prospects. It is predicted that by 2022, there will be 2.3 million jobs in the field of AI and ML.</p>
+                </span>
 
+              </div>
 
-    </div>
-    <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3">Home</button><br><br>
-      <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3">About</button><br><br>
-      <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3 ">Profilo</button><br><br>
-      <button class="btn btn-dark border border-white text-white fw-bold col-6 m-3 ">Contact</button><br><br>
-      <span href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245" class=" fst-italic fw-bold p-3 pb-0  ">Created by@mhdsulu786</span>
-  </nav>
-  <footer class="row m-0 mt-3 col-md-12 p-0 ">
-    <div class="col-md-3 p-3 mb-3 mt-2 border-end border-white  footer-tag">
-      <h4 class="fw-bold text-decoration-underline ">Social Media</h4>
-      <a href="" class="text-decoration-none">Github</a><br>
-      <a href="" class="text-decoration-none">Linkdin</a><br>
-      <a href="" class="text-decoration-none">instagram</a><br>
-      <a href="" class="text-decoration-none">Twitter</a><br>
-    </div>
+            </div>
+          </div></button> 
+        </div>
+          <!---->
+          <div class="row p-3  ">
+          <button href="https://www.classcentral.com/classroom/freecodecamp-ethical-hacking-56987" class="container col-md-3 m-2 p-2 rounded"><div>
+            <div class="card ">
+              <div class="card-body">
+                <img src="./imgs/ethical-hacking.jpg" alt="cyber-securty-jpg">
+                <h5 class="text-primary mt-2 mx-2 fw-bold ">ETHICAL HACKING</h5>
+                <p class="text-wrap fw-bold">THE FUTURE OF ETHICAL HACKING</p>
+                <span class="text-wrap">It is estimated that the job of an ethical hacker is going to increase by 17.5% across the world by the year 2025. Apart from being an ethical hacker, candidates can also start their career as an information system analyst, cybersecurity expert, and security analyst manager etc</p>
+                </span>
+
+              </div>
+
+            </div>
+          </div></button> 
+            <!---->
+            <button class="container col-md-3 m-2 p-2 rounded"><div>
+                <div href="" class="card ">
+                  <div class="card-body">
+                    <img src="./imgs/data-scinence.jpg" alt="dat-science-jpg">
+                    <h5 class="text-primary mt-2 mx-2 fw-bold">DATA SCIENCE</h5>
+                    <p class="text-wrap fw-bold">THE FUTURE OF DATA SCIENCE</p>
+                    <span class="text-wrap">The Data Science future is studded with career opportunities. Future of Data Science 2030 is estimated to bring opportunities in various areas of banking, finance, insurance, entertainment, telecommunication, automobile, etc. A data scientist will help grow an organization by assisting them in making better decisions.</p>
+                    </span>
     
-    <div class="col-md-4 p-3 mb-3 mt-2 border-end border-white footer-tag">
-      <h4 class="fw-bold  text-decoration-underline">Contact</h4>
-      
-      
-      <a href="muhammedsulaimant367@gmail.com" class="text-decoration-none  m-0 p-0 px-2">
-        <h5 class="">Email</h5>
-      </a>
-     
-      <a href="+91 9037435846" class="text-decoration-none  m-0 p-0 px-2">
-        <h5 class="">Phone</h5>
-      </a>
-     
-    </div>
-    <div class="col-md-3 p-3 mb-3 mt-2 border-end border-white footer-tag">
-      <h4 class="fw-bold  text-decoration-underline">Loction</h4>
-        <p>Kongad,Plakkad Po-678631</p>
-        @Kerala(india)
-       
-    </div>
-    <div class="col-md p-3 mb-3 mt-2 border-end border-white ">
-      <h4 class="fw-bold  text-decoration-underline">About</h4>
-      Freelancer
-      self-learning
-      Happy@woking(coding)
-    </div>
+                  </div>
     
+                </div>
+              </div></button> 
+            <!---->
+            <button href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-digital-marketing" class="container col-md-3 m-2 p-2 rounded"><div>
+                <div class="card ">
+                  <div class="card-body">
+                    <img src="./imgs/ditial-marketing.jpg" alt="VR-jpg">
+                    <h5 class="text-primary mt-2 mx-2 fw-bold">DIGITAL MARKETING</h5>
+                    <p class="text-wrap fw-bold">THE FUTURE OF DIGITAL MARKETING</p>
+                    <span class="text-wrap">If you are someone who is looking to build a career in the digital space, digital marketing is perhaps the most popular option you've come across. In 2022, the industry of Indian digital marketing reached an astounding value of Rs. 367 billion</p>
+                    </span>
+    
+                  </div>
+    
+                </div>
+              </div></button> 
+  
+          </div>
 
-  </footer>
+        <!--footer-->
+        <footer class="row m-0 mt-3 col-md-12 p-0 ">
+            <div class="col-md-3 p-3 mb-3 mt-2 border-end border-white  footer-tag">
+                <h4 class="fw-bold text-decoration-underline ">Social Media</h4>
+                <a href="" class="text-decoration-none">Github</a><br>
+                <a href="" class="text-decoration-none">Linkdin</a><br>
+                <a href="" class="text-decoration-none">instagram</a><br>
+                <a href="" class="text-decoration-none">Twitter</a><br>
+            </div>
 
-<!-- scrpt -->
-  <script src="script.js"></script> 
-  <!--bootstrap[ script]-->
-  <script src="./js/bootstrap.js"></script> 
-</body>
+            <div class="col-md-4 p-3 mb-3 mt-2 border-end border-white footer-tag">
+                <h4 class="fw-bold  text-decoration-underline">Contact</h4>
+
+
+                <a href="muhammedsulaimant367@gmail.com" class="text-decoration-none  m-0 p-0 px-2">
+                    <h5 class="">Email</h5>
+                </a>
+
+                <a href="+91 9037435846" class="text-decoration-none  m-0 p-0 px-2">
+                    <h5 class="">Phone</h5>
+                </a>
+
+            </div>
+            <div class="col-md-3 p-3 mb-3 mt-2 border-end border-white footer-tag">
+                <h4 class="fw-bold  text-decoration-underline">Loction</h4>
+                <p>Kongad,Plakkad Po-678631</p>
+                @Kerala(india)
+
+            </div>
+            <div class="col-md p-3 mb-3 mt-2 border-end border-white ">
+                <h4 class="fw-bold  text-decoration-underline">About</h4>
+                Freelancer
+                      self-learning
+                      Happy@woking(coding)
+            </div>
+
+
+        </footer>
+
+        <!-- scrpt -->
+        <script src="script.js"></script>
+        <!--bootstrap[ script]-->
+        <script src="./js/bootstrap.js"></script>
+    </body>
 </html>

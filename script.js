@@ -12,3 +12,8 @@ nav_off_btn.addEventListener("click",()=>{
     document.querySelector("#nav").style.display="none";
     nav_btn.style.display="block";
 })
+ function work(){
+    document.querySelector("#nav").style.display="none";
+    nav_btn.style.display="block";
+
+ }

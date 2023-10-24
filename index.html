@@ -37,7 +37,7 @@
 
 
             <div class="container col-12">
-                <div class="rounded-cirlce bg-white col-md-3 mx-4 "></div>
+                <div class="rounded-cirlce bg-white col-md-3 mx-4 "><img src="./imgs/profile.jpg" alt=""></div>
                 <div class="col mb-3">
 
                     <span class="fw-bold p-2 mt-2 text-wrap" href="https://www.linkedin.com/in/muhammad-sulaiman-t-6b6141245">Muhammedsulaiman.T</span><br>
@@ -129,7 +129,7 @@
                     <p class="text-wrap fw-bold">THE FUTURE OF DATA SCIENCE</p>
                     <span class="text-wrap">The Data Science future is studded with career opportunities. Future of Data Science 2030 is estimated to bring opportunities in various areas of banking, finance, insurance, entertainment, telecommunication, automobile, etc. A data scientist will help grow an organization by assisting them in making better decisions.</p>
                     </span>
-                    <a href="" class="btn btn-primary"> Learn now</a>
+                    <a href="https://www.coursera.org/courses?query=free%20courses%20data%20science" class="btn btn-primary"> Learn now</a>
     
                   </div>
     
@@ -175,12 +175,17 @@
           <div class="container col-md-  pb-2 bg-white">
             <h2 class="text-secondary fw-bold fst-italic pt-3 ps-3" id="contact">CONTACT</h2>
               <form action="" class="col-md  text-dark ps-3"><br>
-                <input name="full-name" type="text" placeholder="Full Name"><br>
-                <input class="mt-3"  name="email" type="email" placeholder="Email"><br>
-                <input class="mt-3"  name="phone" type="number" placeholder="Phone"><br>
-                <input class="mt-3 "  name="messege" type="text" placeholder="Write something "><br>
+                <input class="p-2" name="full-name" type="text" placeholder="Full Name" onkeyup="validition_name()" id="name"><br>
+                <span id="name-err" ></span><br>
+                <input class="mt-3 p-2"  name="email" type="email" placeholder="Email" onkeyup="validition()" id="email"><br>
+                <span id="email-err" ></span><br>
+                <input class="mt-3 p-2"  name="phone" type="number" placeholder="Phone" onkeyup="validition_phone()" id="phone"><br>
+                <span id="Phone-err"  ></span><br>
+                <input class="mt-3 p-2 pb-3 "  name="messege" type="text" placeholder="Write something " onkeyup="validition()" id="messege"><br>
+                <span id="msg-err" ></span><br>
                 
-                <button   type="submit" class="btn btn-primary mt-3">Submit</button>
+                <button   type="submit" class="btn btn-primary mt-3" onkeyup="validition()" id="submit">Submit</button>
+                <span id="submit-err"  ></span><br>
               </form>
           </div>
 
@@ -200,7 +205,7 @@
                 <h4 class="fw-bold  text-decoration-underline">Contact</h4>
 
 
-                <a href="https://gm.me/muhammedsulaimant367@gmail.com" class="text-decoration-none  m-0 p-0 px-2">
+                <a href=" https://mail.google.com/mail/u/muhammedsulaimant367@gmail.com" class="text-decoration-none  m-0 p-0 px-2">
                     <h5 class="">Email</h5>
                 </a>
 
